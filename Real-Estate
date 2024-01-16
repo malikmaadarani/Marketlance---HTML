@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <title>Real Estate</title>
+  <link rel="stylesheet" a href="Malik CSS/Real Estate.css">
+  <script src="Malik.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $("h3").mouseenter(function(){
+        $("h3").css("background-color", "lightgray");
+      });
+      $("h3").mouseleave(function(){
+        $("h3").css("background-color", "white");
+      });
+    });
+  </script>
+</head>
+
+  <body>
+   <!--Header + Navigation-->
+   <div>
+    <header align="center">
+      <h1>Marketlance</h1>
+      <!--Links-->
+      <nav class="nav">
+        <ul class="choices">
+            <li class="choice_1"><a href="Home_Page.html">Home</a></li>
+            <li class="choice_2"><a href="Browsing_Categories.html">Browse</a></li>
+            <li class="choice_3"><a href="Place_your_ad.html">Place Your Ad</a></li>
+            <li class="choice_4"><a href="Additional_Information.html">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+   
+
+<!-- Your code here-->
+
+    <table align="center" class="popular">
+      <!--House Areas-->
+      <h2 align="center">Popular Areas</h2>
+      <tr>
+        <td width="400px" align="center">
+          <p><a href="#Downtown"><h3>Downtown Ottawa</h3></a></p>
+          <img src="Photos/property photos/downtown_main_room.jpg" alt="downtown" width="300" height="200"> 
+        </td>
+        <td width="400px" align="center">
+          <p><a href="#Kanata"><h3>Kanata</h3></a></p>
+          <img src="Photos/property photos/kanata_main_room.jpg" alt="kanata" width="300" height="200"> 
+        </td>
+        <td width="400px" align="center">
+          <p><a href="#Nepean"><h3>Nepean</h3></a></p>
+          <img src="Photos/property photos/nepean_main_room.jpg" alt="nepean" width="300" height="200"> 
+        </td>
+        <td width="400px" align="center">
+          <p><a href="#Barhaven"><h3>Barhaven</h3></a></p>
+          <img src="Photos/property photos/barhaven_main_room.jpg" alt="barhaven" width="300" height="200"> 
+        </td>
+        <td width="400px" align="center">
+          <p><a href="#Gatineau"><h3>Gatineau</h3></a></p>
+          <img src="Photos/property photos/gatineau_main_room.jpg" alt="gatineau" width="300" height="200"> 
+        </td>
+      </tr>
+    </table>
+    <hr> </br>
+
+    <!--Houses for sale-->
+   
+    <div class="downtown"> 
+      <table name="Houses in Downtown" id="Downtown" style="font-size: 20px;">
+        <h2>Downtown Ottawa</h2>
+        <hr> 
+        <tr>
+          <td name="downtown_1">
+            <img src="Photos/property photos/home-1.jpg" alt="house_sale#1" width="375" height="314">
+            <ul>
+              <h3 style="font-size: 25px;">$2,560,000</h3>
+              <li>6 beds, 6 baths</li>
+              <li>5,000 square feet</li>
+              <li>26 Rideau Terrance</li>
+            </ul>
+          </td> 
+          <td name="downtown_2">
+            <img src="Photos/property photos/home-2.jpg" alt="house_sale#2" width="375" height="314">
+            <ul>
+              <h3 style="font-size: 25px;">$850,000</h3>
+              <li>4 beds, 3 baths</li>
+              <li>3,600 square feet</li>
+              <li>185 Lisgar Street</li>
+            </ul>
+          </td> 
+          <td name="downtown_3">
+            <img src="Photos/property photos/home-3.jpg" alt="house_sale#3" width="375" height="314">
+            <ul>
+              <h3 style="font-size: 25px;">$1,090,000</h3>
+              <li>5 beds, 6 baths</li>
+              <li>4,200 square feet</li>
+              <li>17 MacLaren Street</li>
+            </ul>
+          </td> 
+          <td name="downtown_4">
+            <img src="Photos/property photos/home-4.jpg" alt="house_sale#4" width="375" height="314">
+            <ul>
+              <h3 style="font-size: 25px;">$400,000</h3>
+              <li>3 beds, 3 baths</li>
+              <li>2,460 square feet</li>
+              <li>62 Harvey Street</li>
+            </ul>
+          </td> 
+        </tr>
+      </table>
+      <hr>
+    </div>
+
+    <div class="kanata">  
+      <table name="Houses in Kanata" id="Kanata" style="font-size: 20px;">
+        <h2>Kanata</h2>
+        <hr> 
+        <tr>
+          <td name="kanata_1">
+            <img src="Photos/property photos/home-5.jpg" alt="house_sale#5" width="375" height="314">
+            <ul>
+              <h3 style="font-size: 25px;">$3,140,000</h3>
+              <li>5 beds, 6 baths</li>
+              <li>5 Acres</li>
+              <li>1106 Huntmar Drive</li>
+            </ul>
+          </td> 
+          <td name="kanata_2">
+            <img src="Photos/property photos/home-6.jpg" alt="house_sale#6" width="375" height="314">
+            <ul>
+              <h3 style="font-size: 25px;">$850,000</h3>
+              <li>3 beds, 3 baths</li>
+              <li>2,798 square feet</li>
+              <li>468 Celtic Ridge Crescent</li>
+            </ul>
+          </td> 
+          <td name="kanata_3">
+            <img src="Photos/property photos/home-7.jpg" alt="house_sale#7" width="375" height="314">
+            <ul>
+              <h3 style="font-size: 25px;">$490,000</h3>
+              <li>2 beds, 3 baths</li>
+              <li>2 Storeys</li>
+              <li>6 Bethune Way</li>
+            </ul>
+          </td> 
+          <td name="kanata_4">
+            <img src="Photos/property photos/home-8.jpg" alt="house_sale#8" width="375" height="314">
+            <ul>
+              <h3 style="font-size: 25px;">$1,320,000</h3>
+              <li>3 beds, 4 baths</li>
+              <li>6,100 square feet</li>
+              <li>103 Laughlin Circle</li>
+            </ul>
+          </td> 
+        </tr>
+      </table>
+      <hr>
+    </div>
+
+    <div class="nepean">
+      <table name="Houses in Nepean" id="Nepean" style="font-size: 20px;">
+        <h2>Nepean</h2>
+        <hr> 
+        <tr>
+          <td name="nepean_1">
+            <img src="Photos/property photos/home-9.jpg" alt="house_sale#9" width="375" height="314">
+            <ul>
+              <h3 style="font-size: 25px;">$275,000</h3>
+              <li>1 bed, 1 baths</li>
+              <li>1 storey</li>
+              <li>20 Chesterton Drive Unit #1021 </li>
+            </ul>
+          </td> 
+          <td name="nepean_2">
+            <img src="Photos/property photos/home-10.jpg" alt="house_sale#10" width="375" height="314"">
+            <ul>
+              <h3 style="font-size: 25px;">$380,000</h3>
+              <li>3 beds, 2 baths</li>
+              <li>2 Storeys</li>
+              <li>124 Huntridge Private</li>
+            </ul>
+          </td> 
+          <td name="nepean_3">
+            <img src="Photos/property photos/home-11.jpg" alt="house_sale#11" width="375" height="314">
+            <ul>
+              <h3 style="font-size: 25px;">$490,000</h3>
+              <li>2 beds, 3 baths</li>
+              <li>2 Storeys</li>
+              <li>6 Bethune Way</li>
+            </ul>
+          </td> 
+          <td name="nepean_4">
+            <img src="Photos/property photos/home-12.jpg" alt="house_sale#12" width="375" height="314">
+            <ul>
+              <h3 style="font-size: 25px;">$820,000</h3>
+              <li>4 beds, 4 baths</li>
+              <li>7,300 square feet</li>
+              <li>92 Lillico Drive</li>
+            </ul>
+          </td> 
+        </tr>
+      </table>
+      <hr>   
+    </div>
+
+    <div class="barhaven">
+      <table name="Houses in Barhaven" id="barhaven" style="font-size: 20px;">
+        <h2>Barhaven</h2>
+        <hr> 
+        <tr>
+          <td name="barhaven_1">
+            <img src="Photos/property photos/home-13.jpg" alt="house_sale#13" width="375" height="314">
+            <ul>
+              <h3 style="font-size: 25px;">$950,000</h3>
+              <li>4 bed, 4 baths</li>
+              <li>6,000 square feet</li>
+              <li>11 Blackshire Circle</li>
+            </ul>
+          </td> 
+          <td name="barhaven_2">
+            <img src="Photos/property photos/home-14.jpg" alt="house_sale#14" width="375" height="314">
+            <ul>
+              <h3 style="font-size: 25px;">$400,000</h3>
+              <li>2 beds, 2 baths</li>
+              <li>2 Storeys</li>
+              <li>446 Verona Avenue Unit D</li>
+            </ul>
+          </td> 
+          <td name="barhaven_3">
+            <img src="Photos/property photos/home-15.jpg" alt="house_sale#15" width="375" height="314">
+            <ul>
+              <h3 style="font-size: 25px;">$650,000</h3>
+              <li>2 beds, 4 baths</li>
+              <li>3,400 square feet</li>
+              <li>153 Rodeo Drive</li>
+            </ul>
+          </td> 
+          <td name="barhaven_4">
+            <img src="Photos/property photos/home-16.jpg" alt="house_sale#16" width="375" height="314">
+            <ul>
+              <h3 style="font-size: 25px;">$320,000</h3>
+              <li>2 beds, 2 baths</li>
+              <li>2 Storeys</li>
+              <li>158 Keltie private</li>
+            </ul>
+          </td> 
+        </tr>
+      </table>
+      <hr> 
+    </div>
+
+    <div class="gatineau">
+      <table name="Houses in Gatineau" id="Gatineau" style="font-size: 20px;">
+        <h2>Gatineau</h2>
+        <hr> 
+        <tr>
+          <td name="gatineau_1">
+            <img src="Photos/property photos/home-17.jpg" alt="house_sale#17" width="375" height="314">
+            <ul>
+              <h3 style="font-size: 25px;">$275,000</h3>
+              <li>3 beds, 1 baths</li>
+              <li>1 storey</li>
+              <li>38 Rue de Fénelon</li>
+            </ul>
+          </td> 
+          <td name="gatineau_2">
+            <img src="Photos/property photos/home-18.jpg" alt="house_sale#18" width="375" height="314">
+            <ul>
+              <h3 style="font-size: 25px;">$680,000</h3>
+              <li>5 beds, 3 baths</li>
+              <li>2 Storeys</li>
+              <li>63 Rue de Lusignan</li>
+            </ul>
+          </td> 
+          <td name="gatineau_3">
+            <img src="Photos/property photos/home-19.jpg" alt="house_sale#19" width="375" height="314">
+            <ul>
+              <h3 style="font-size: 25px;">$490,000</h3>
+              <li>5 beds, 2 baths</li>
+              <li>1 Storeys</li>
+              <li>10 Rue d'Alençon</li>
+            </ul>
+          </td> 
+          <td name="gatineau_4">
+            <img src="Photos/property photos/home-20.jpg" alt="house_sale#20" width="375" height="314">
+            <ul>
+              <h3 style="font-size: 25px;">$360,000</h3>
+              <li>3 beds, 2 baths</li>
+              <li>2 Storeys</li>
+              <li>308 Rue Pierre-Lafontaine</li>
+            </ul>
+          </td> 
+        </tr>
+      </table>
+      <hr>
+    </div>  
+    
+
+
+    <section>
+    <!--Contact us
+    fieldset-->
+      <form  onsubmit="react()">
+        <fieldset>
+          <legend>Contact Us</legend>
+          <p>Email: <br>
+          <input type="text" name="email"> </p>
+          <p>Question topic: <br>
+          <select name="topic">
+            <option value="choose">Select a topic</option>
+            <option value="shipping">Shipping</option>
+            <option value="ad">Place an ad</option>
+            <option value="customerservice">Customer Service</option>
+            <option value="others">Others</option>
+          </select> </p>
+          <p>Please explain your question: <br>
+            <textarea name="explain" rows="6" cols="40"></textarea> </p>
+            <input type="submit" name="submit" value="Submit">
+          </fieldset>
+        </form>
+    </section>
+    
+  </body>
+</html>
