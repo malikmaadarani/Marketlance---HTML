@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="UTF-8">
+    <title>Property Page</title>
+    <link rel="stylesheet" a href="Malik CSS/Property.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css ">
+    <script src="Malik.js"></script>
+    <script src="jquery-3.6.0.min.js"></script>
+
+  </head>
+
+  <body>
+    <script>
+      document.body.classList.add('fade');
+    </script>
+    <!--Header + Navigation-->
+    <div align="center">
+      <header>
+        <h1>Marketlance</h1>
+        <!--Links-->
+        <nav>
+          <ul>
+              <li><a href="Home_Page.html">Home</a></li>
+              <li><a href="Browsing_Categories.html">Browse</a></li>
+              <li><a href="Place_your_ad.html">Place Your Ad</a></li>
+              <li><a href="Additional_Information.html">About Us</a></li>
+          </ul>
+        </nav>
+          <hr>
+      </header>
+    </div>
+
+  <!-- Your code here-->
+      <form>
+        <table class="main"; align="center" >
+          <tr>
+            <th colspan="2" align="center"; padding="25px">
+                <div class="example">
+                  <p><a href="./Real%20Estate.html" ><h3>Rooms For Rent in Ottawa</h3></a></p>
+                </div>
+                <img src="Photos/property photos/downtown_main_room.jpg"> 
+            </th>
+            <th colspan="2" align="center">
+              <div class="example">
+                  <p><a href="./Rooms%20For%20Rent.html" class="example"><h3>Real Estate</h3></a></p>
+                </div>
+                <img src="Photos/property photos/apartment_main_house.jpg">
+            </th>
+              <th rowspan="2" align="center">
+                <div class="slidecontainer">
+                  <h3>Reduce House Search</h3> 
+                  <p>Amount:</p>
+                  <i class="fa fa-usd"></i><input type="range" class="slide" id="myRange" name="slider" min="80000" max="5000000" value="2500000" align="center"/><i class="fa fa-usd"></i><i class="fa fa-usd"></i><i class="fa fa-usd"></i>
+                </div>
+                <form align="auto" class="select" onsubmit="submission()">
+                  <input type="radio" name="House" value="duplex" > Duplex</br>
+                  <input type="radio" name="House" value="town_home" > Town House</br>
+                  <input type="radio" name="House" value="condo" > Condo</br>
+                  <input type="radio" name="House" value="Single-family">  Single Family</br>
+                  </br><p>Any extra information:</p>
+                </form>
+                <form class="search_bar" onsubmit="submission()">
+                  <input type="text" name="search" placeholder="Insert Text" rows="8">
+                  </br><br><input type="submit" name="submit" onclick="Submit()" value="Result">
+              </form>
+            </th>
+          </tr>
+        </table>
+
+         <div class="video">
+          <h2>Marketlance will help your house hunting troubles much easier!</h2>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/8cOKg6-EWO8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </form>   
+
+
+
+
+
+      <section>
+      <!--Contact us
+      fieldset-->
+        <form onsubmit="react()"> </br></br></br></br>
+          <fieldset>
+            <legend>Contact Us</legend>
+            <p>Email: <br>
+            <input type="text" name="email"> </p>
+            <p>Question topic: <br>
+            <select name="topic">
+              <option value="choose">Select a topic</option>
+              <option value="shipping">Shipping</option>
+              <option value="ad">Place an ad</option>
+              <option value="customerservice">Customer Service</option>
+              <option value="others">Others</option>
+            </select> </p>
+            <p>Please explain your question: <br>
+              <textarea name="explain" rows="6" cols="40"></textarea> </p>
+            <input type="submit" name="submit"  value="Submit">
+            </fieldset>
+          </form>
+      </section>
+  </body>
+
+</html>
